@@ -31,4 +31,8 @@ class Artist
   # def self.find_by_name(name)
   #   @@all.detect{|artist| artist.name == name}
   # end
+  
+  def add_song(song)
+    
+  end
 end
