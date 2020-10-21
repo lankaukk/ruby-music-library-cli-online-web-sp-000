@@ -33,5 +33,10 @@ class Song
     @artist = artist
     artist.add_song(self)
   end
+  
+  def genre=(artist)
+    @artist = artist
+    artist.add_song(self)
+  end
 end
 
