@@ -32,7 +32,7 @@ class Artist
   #   @@all.detect{|artist| artist.name == name}
   # end
   
-    def add_song(song)
+  def add_song(song)
     if song.artist == nil
       song.artist = self
     else
