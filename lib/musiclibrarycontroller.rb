@@ -115,7 +115,7 @@ class MusicLibraryController
     input = gets.strip.to_i
     if (input > 0) && (input <= list_of_songs.size)
     elsif (input >= 1) && (input <= list_of_songs.size)
-    if (1..Song.all.length).include?(input)
+    else (1..Song.all.length).include?(input)
       song = list_of_songs[input+2]
       puts "Playing #{song.name} by #{song.artist.name}"
     end
